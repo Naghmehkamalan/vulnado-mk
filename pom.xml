@@ -75,5 +75,16 @@
 			</plugin>
 		</plugins>
 	</build>
-
+<distributionManagement>
+    <repository>
+        <id>central</id>
+        <name>melodyk-art-releases</name>
+        <url>http://34.94.102.69:8081/artifactory/mavanrep2</url>
+    </repository>
+    <snapshotRepository>
+        <id>snapshots</id>
+        <name>melodyk-art-snapshots</name>
+        <url>http://34.94.102.69:8081/artifactory/mavanrep2</url>
+    </snapshotRepository>
+</distributionManagement>
 </project>
